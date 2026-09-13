@@ -74,12 +74,12 @@ The dataset is split chronologically into training, validation, and test sets to
 
 ### Validation Performance
 
-| Model               | Train Accuracy | Validation Accuracy |   F1 Score |    ROC-AUC |
-| ------------------- | -------------: | ------------------: | ---------: | ---------: |
-| Logistic Regression |         52.92% |              54.96% |     0.2637 |     0.5177 |
-| Random Forest       |         68.28% |          **56.97%** |     0.3600 | **0.5456** |
-| XGBoost             |         80.39% |              55.80% | **0.4913** |     0.5440 |
-| Tuned XGBoost       |         60.45% |          **56.97%** |     0.4074 |     0.5374 |
+| Model               | Train Accuracy | Validation Accuracy | F1 Score   | ROC-AUC    |
+| ------------------- | -------------- | ------------------- | ---------- | ---------- |
+| Logistic Regression | 52.92%         | 54.96%              | 0.2637     | 0.5177     |
+| Random Forest       | 68.28%         | **56.97%**          | 0.3600     | **0.5456** |
+| XGBoost             | 80.39%         | 55.80%              | **0.4913** | 0.5440     |
+| Tuned XGBoost       | 60.45%         | **56.97%**          | 0.4074     | 0.5374     |
 
 The majority-class Dummy Classifier achieved a validation accuracy of **57.31%**.
 
