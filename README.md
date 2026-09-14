@@ -60,6 +60,7 @@ After changing the reward to relative market performance, the agent began making
 | Buy and Hold    |   11,846.62 |  18.47% |
 | Random Strategy |    6,901.40 | -30.99% |
 
+ <img src="data/assets/trading_strategy_comparison.png" width="600">
 The RL strategy outperformed random trading but did not beat Buy-and-Hold.
 
 ## ⚠️ Limitations
