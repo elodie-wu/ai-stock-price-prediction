@@ -70,7 +70,7 @@ def create_features(df):
     df["ma_10"] = df["close"].rolling(10).mean()
     df["ma_20"] = df["close"].rolling(20).mean()
 
-    # Distance from moving averages
+    # Distance from moving averages; ma5_distance = (close - ma5) / ma5; 当前价格相对于 5 日均线高/低了百分之多少。
     df["ma5_distance"] = df["close"] / df["ma_5"] - 1
 
     df["ma20_distance"] = df["close"] / df["ma_20"] - 1
