@@ -1,8 +1,6 @@
 # 📈 AI Stock Prediction & RL Trading
 
-<p align="center">
-  <img src="data/assets/geniustrader.png" width="200">
-</p>
+<img src="data/assets/geniustrader.png" width="200">
 
 This project explores two approaches to A-share market modelling:
 
